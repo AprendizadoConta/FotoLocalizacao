@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExercicioFotoMapa.MainPage">
+
+    <StackLayout>
+        
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="Foto Localização" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            <Button x:Name="btnTirarFoto" Text="Tirar Foto" BackgroundColor="#7B68EE" TextColor="White" Clicked="btnTirarFoto_Clicked"/>
+            <Image x:Name="FotoTirada"/>
+            <Button x:Name="btnMostrarMapa" Text="Mostrar Mapa" BackgroundColor="#DA70D6" TextColor="White" Clicked="btnMostrarMapa_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
